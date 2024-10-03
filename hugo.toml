@@ -3,25 +3,34 @@ languageCode = "zh-tw"
 title = "CaiYueTing blog"
 theme = "rocinante"
 paginate = 3
+summaryLength = 0
 
 [markup]
   [markup.highlight]
     style = "monokailight"
+    tabWidth = 2
   [markup.goldmark.renderer]
     unsafe= true
 
+[author]
+  name = "CaiYueTing"
+
 [params]
-  mainSections = ["posts", "photos"]
-  email = "mail@example.com"
-  favicon = "icons/favicon.png"
+  mainSections = ["post", "photos"]
+  email = "qazxcv367tasi@gmail.com"
+  favicon = "icon/favicon.jpg"
   about = """
-About section. Enter details about you here.
+Hi. I'm **Yue Ting**. I'm a backend developer and a outdoor holic.
+Also, I really like free diving, maybe I will be a free diving instructor in the future.
+
+_We can discuss about the coding, freediving or snowboarding._
 """
 
   [[params.links]]
     [[params.links.link]]
-      name = "Resume"
-      href = "/Resume.pdf"
+      name = "About"
+      href = "https://en.wikipedia.org/wiki/Don_Quixote"
+      new_tab = true
     [[params.links.link]]
       name = "Email"
       href = "/contact"
@@ -30,11 +39,7 @@ About section. Enter details about you here.
   [[params.links]]
     [[params.links.link]]
       name = "Github"
-      href = "https://github.com/"
-      new_tab = true
-    [[params.links.link]]
-      name = "Mastodon"
-      href = "https://mastodon.social/"
+      href = "https://github.com/CaiYueTing"
       new_tab = true
     [[params.links.link]]
       name = "Twitter"
@@ -42,5 +47,5 @@ About section. Enter details about you here.
       new_tab = true
     [[params.links.link]]
       name = "Instagram"
-      href = "https://instagram.com/"
+      href = "https://www.instagram.com/tingtsai221/"
       new_tab = true
