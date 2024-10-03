@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on CaiYueTing blog</title>
-    <link>https://CaiYueTing.github.io/categories/</link>
+    <link>https://caiyueting.github.io/categories/</link>
     <description>Recent content in Categories on CaiYueTing blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <atom:link href="https://CaiYueTing.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://caiyueting.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
