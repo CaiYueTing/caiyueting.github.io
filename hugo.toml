@@ -1,4 +1,4 @@
-baseURL = "https://CaiYueTing.github.io"
+baseURL = "https://caiyueting.github.io"
 languageCode = "zh-tw"
 title = "CaiYueTing blog"
 theme = "rocinante"
